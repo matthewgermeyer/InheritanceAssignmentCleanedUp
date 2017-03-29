@@ -22,7 +22,13 @@ public final class Midfielders extends Outfielders{
 
     //Methods
     protected String intro(){
-        return "Hi my name is " + toString();
+        String info = "I play midfield. I am " + getAge() + " years old. I am ";
+        if (getFoot().equals("R")) {
+            info += " right footed";
+        } else {
+            info += " left footed";
+        }
+        return info;
     }
 
 
