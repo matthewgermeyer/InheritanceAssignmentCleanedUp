@@ -22,6 +22,11 @@ public final class Defenders extends Outfielders{
         return "..";
     }
 
+    public String myAge(){
+        System.out.println("My age is "+ age);
+        return null;
+    }
+
     public boolean isTall() {
         return IsTall;
     }

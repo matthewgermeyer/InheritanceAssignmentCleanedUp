@@ -21,6 +21,10 @@ public final class Midfielders extends Outfielders{
     }
 
     //Methods
+    public String myAge(){
+        System.out.println("My age is "+ age);
+        return null;
+    }
     protected String intro(){
         String info = "I play midfield. I am " + getAge() + " years old. I am ";
         if (getFoot().equals("R")) {
@@ -30,8 +34,6 @@ public final class Midfielders extends Outfielders{
         }
         return info;
     }
-
-
     //GET SET
     public boolean isAnchor() {
         return Anchor;

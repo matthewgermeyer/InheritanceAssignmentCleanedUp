@@ -29,6 +29,8 @@ public class Main {
         System.out.println("Paco says " + paco.talk());
         System.out.println("Manny introduces himself " + manny.intro());
 
+        manny.myAge();
+
 //        luna.talk();
 //        manuel.talk();
 //        salah.talk();

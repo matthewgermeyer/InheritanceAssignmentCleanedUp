@@ -12,9 +12,8 @@ public abstract class SoccerPlayers {
     //Methods
     public String talk(){
         return "..";
-
-
     }
+    public abstract String myAge();
 
     //Get Set
     public int getAge() {

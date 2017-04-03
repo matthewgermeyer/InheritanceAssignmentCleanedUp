@@ -25,6 +25,10 @@ public final class Forwards extends Outfielders{
     public String talk(){
         return "..";
     }
+    public String myAge(){
+        System.out.println("My age is "+ age);
+        return null;
+    }
 
 
 

@@ -7,7 +7,6 @@ public abstract class Outfielders extends SoccerPlayers {
         AttackMinded = attackMinded;
     }
 
-
     //Methods
     public String talk(){
         return "..";

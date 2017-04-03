@@ -10,6 +10,10 @@ public class Keepers extends SoccerPlayers{
     public String talk(){
         return "..";
     }
+    public String myAge(){
+        System.out.println("My age is "+ age);
+        return null;
+    }
 
     public boolean isVeryTall() {
         return veryTall;
