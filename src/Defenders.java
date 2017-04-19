@@ -1,4 +1,4 @@
-public final class Defenders extends Outfielders{
+public final class Defenders extends Outfielders {
     protected boolean IsTall;
     protected boolean GetsForward;
     protected boolean LongBall;
@@ -18,13 +18,13 @@ public final class Defenders extends Outfielders{
 
 
     //Methods
-    public String talk(){
+    public String talk() {
         return "..";
     }
 
-    public String myAge(){
-        System.out.println("My age is "+ age);
-        return null;
+    public String myAge() {
+        System.out.println("My age is " + age);
+        return "" + age;
     }
 
     public boolean isTall() {
@@ -83,7 +83,7 @@ public final class Defenders extends Outfielders{
                 ", LongBall=" + LongBall +
                 ", Anchor=" + Anchor +
                 ", Heading=" + Heading +
-                ", Marking=" + Marking + super.toString()+
+                ", Marking=" + Marking + super.toString() +
                 '}';
     }
 }

@@ -23,7 +23,7 @@ public final class Midfielders extends Outfielders{
     //Methods
     public String myAge(){
         System.out.println("My age is "+ age);
-        return null;
+        return "" + age;
     }
     protected String intro(){
         String info = "I play midfield. I am " + getAge() + " years old. I am ";
